@@ -1,0 +1,22 @@
+{
+  "name": "folder_structure_templete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "start:dev": "set NODE_ENV=dev&& node --watch ./src/main.js",
+    "start:prod": "set NODE_ENV=prod&& node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1"
+  }
+}
